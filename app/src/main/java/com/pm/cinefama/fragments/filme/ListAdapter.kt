@@ -23,6 +23,14 @@ class ListAdapter: RecyclerView.Adapter<ListAdapter.MyViewHolder>() {
         val currentItem = filmeList[position]
         holder.itemView.lst_filmeId.text = currentItem.id.toString()
         holder.itemView.lst_filmeName.text = currentItem.name
+        holder.itemView.lst_filmeDirectors.text = currentItem.directors
+        holder.itemView.lst_filmeActors.text = currentItem.actors
+        holder.itemView.lst_filmeGenre.text = currentItem.genre
+        holder.itemView.lst_filmeRelease_date.text = currentItem.release_date
+        holder.itemView.lst_filmeLegal_age.text = currentItem.legal_age.toString()
+        holder.itemView.lst_filmeDuration.text = currentItem.duration.toString()
+        holder.itemView.lst_filmeRoom.text = currentItem.theater.toString()
+        holder.itemView.lst_filmeSchedule.text = currentItem.schedule
 
         if(position%2 == 0){
             holder.itemView.rowLayout.setBackgroundColor(Color.parseColor("#d6d4e0"))
@@ -45,4 +53,3 @@ class ListAdapter: RecyclerView.Adapter<ListAdapter.MyViewHolder>() {
         this.filmeList = filmes
         notifyDataSetChanged()
     }
-}

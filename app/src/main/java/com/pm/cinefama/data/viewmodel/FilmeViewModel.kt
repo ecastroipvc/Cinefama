@@ -11,13 +11,13 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
 class FilmeViewModel(application: Application) : AndroidViewModel(application){
-    val readAllFilme: LiveData<List<Filme>>
+    val readAllFilmes: LiveData<List<Filme>>
     private val repository: FilmeRepository
 
     init {
         val filmeDao = FilmeDatabase.getDatabase(application).filmeDao()
         repository = FilmeRepository(filmeDao)
-        readAllFilme = repository.readAllFilme
+        readAllFilmes = repository.readAllFilmes
     }
 
     fun  addFilme(filme: Filme){

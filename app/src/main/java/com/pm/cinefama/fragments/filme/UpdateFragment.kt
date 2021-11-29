@@ -97,4 +97,3 @@ class UpdateFragment : Fragment() {
         return !TextUtils.isEmpty(updateFilmeName.text.toString())
     }
 }
-

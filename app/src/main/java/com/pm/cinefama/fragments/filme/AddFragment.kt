@@ -11,6 +11,7 @@ import com.pm.cinefama.R
 import com.pm.cinefama.data.entities.Filme
 import com.pm.cinefama.data.viewmodel.FilmeViewModel
 import com.pm.cinefama.utils.Utils.Companion.hideKeyboard
+import kotlinx.android.synthetic.main.custom_row.*
 import kotlinx.android.synthetic.main.fragment_add.*
 
 class AddFragment : Fragment() {
@@ -54,7 +55,15 @@ class AddFragment : Fragment() {
             ).show()
         }
 
-        val filme = Filme(0, filmeName.text.toString())
+        val filme = Filme(0, filmeName.text.toString(),
+            Integer.parseInt(filmeduration.text.toString()),
+            filmedirectors.text.toString(),
+            filmeactors.text.toString(),
+            filmegenre.text.toString(),
+            filmerelease_date.text.toString(),
+            Integer.parseInt(filmelegal_age.text.toString()),
+            Integer.parseInt(filmetheater.text.toString()),
+            filmeschedule.text.toString())
 
         mFilmeViewModel.addFilme(filme)
 
@@ -68,6 +77,14 @@ class AddFragment : Fragment() {
     }
 
     private fun isValid() : Boolean {
-        return !TextUtils.isEmpty(filmeName.text.toString())
+        return !(TextUtils.isEmpty(filmeName.text.toString())
+                && TextUtils.isEmpty(filmeduration.text.toString())
+                && TextUtils.isEmpty(filmedirectors.text.toString())
+                && TextUtils.isEmpty(filmeactors.text.toString())
+                && TextUtils.isEmpty(filmegenre.text.toString())
+                && TextUtils.isEmpty(filmerelease_date.text.toString())
+                && TextUtils.isEmpty(filmelegal_age.text.toString())
+                && TextUtils.isEmpty(filmetheater.text.toString())
+                && TextUtils.isEmpty(filmeschedule.text.toString()))
     }
 }

@@ -9,20 +9,70 @@
         android:id="@+id/ll_main_layout_add_product"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="left"
+        android:gravity="start"
         android:orientation="vertical"
-        android:padding="25dp">
+        android:padding="25sp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/filme"
-            android:textSize="25dp" />
+            android:textSize="25sp" />
 
         <EditText
             android:id="@+id/filmeName"
+            android:hint="Movie Name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/filmeduration"
+            android:hint="Duration (minutes)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/filmedirectors"
+            android:hint="Directors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/filmeactors"
+            android:hint="Actors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/filmegenre"
+            android:hint="Genre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/filmerelease_date"
+            android:hint="Release Date (dd/mm/yy)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/filmelegal_age"
+            android:hint="Legal Age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/filmetheater"
+            android:hint="Theater"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/filmeschedule"
+            android:hint="Schedule (hh:mm)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

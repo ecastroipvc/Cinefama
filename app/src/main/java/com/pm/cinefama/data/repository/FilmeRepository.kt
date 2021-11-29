@@ -5,7 +5,7 @@ import com.pm.cinefama.data.dao.FilmeDao
 import com.pm.cinefama.data.entities.Filme
 
 class FilmeRepository(private  val filmeDao: FilmeDao) {
-    val readAllFilme : LiveData<List<Filme>> = filmeDao.readAllFilme()
+    val readAllFilmes : LiveData<List<Filme>> = filmeDao.readAllFilmes()
 
     suspend fun addFilme(filme: Filme){
         filmeDao.addFilme(filme)

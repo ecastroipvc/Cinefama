@@ -32,7 +32,7 @@ class ListFragment : Fragment() {
 
         // UserViewModel
         mFilmeViewModel = ViewModelProvider(this).get(FilmeViewModel::class.java)
-        mFilmeViewModel.readAllFilme.observe(viewLifecycleOwner, Observer { filme ->
+        mFilmeViewModel.readAllFilmes.observe(viewLifecycleOwner, Observer { filme ->
             adapter.setData(filme)
         })
 
