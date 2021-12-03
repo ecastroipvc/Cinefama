@@ -14,7 +14,7 @@ interface FilmeDao {
     fun updateFilme(filme: Filme)
 
     @Query("SELECT * FROM filme ORDER BY id DESC")
-    fun readAllFilme(): LiveData<List<Filme>>
+    fun readAllFilmes(): LiveData<List<Filme>>
 
     @Delete
     fun deleteFilme(filme: Filme)

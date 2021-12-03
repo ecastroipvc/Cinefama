@@ -20,7 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="25dp"
-            android:padding="5dp"
+            android:padding="13dp"
             android:text="ID"/>
 
         <TextView
@@ -28,7 +28,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="25dp"
-            android:padding="5dp"
+            android:padding="13dp"
             android:text="Name"/>
 
         <TextView
@@ -36,64 +36,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="25dp"
-            android:padding="5dp"
+            android:padding="13dp"
             android:text="Duration"/>
-
-        <TextView
-            android:id="@+id/lst_filmeDirectors"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="25dp"
-            android:padding="5dp"
-            android:text="Directors"/>
-
-        <TextView
-            android:id="@+id/lst_filmeActors"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="25dp"
-            android:padding="5dp"
-            android:text="Actors"/>
 
         <TextView
             android:id="@+id/lst_filmeGenre"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="25dp"
-            android:padding="5dp"
+            android:padding="13dp"
             android:text="Genre"/>
-
-        <TextView
-            android:id="@+id/lst_filmeRelease_date"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="25dp"
-            android:padding="5dp"
-            android:text="Release Date"/>
-
-        <TextView
-            android:id="@+id/lst_filmeLegal_age"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="25dp"
-            android:padding="5dp"
-            android:text="Legal age"/>
-
-        <TextView
-            android:id="@+id/lst_filmeRoom"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="25dp"
-            android:padding="5dp"
-            android:text="Room"/>
-
-        <TextView
-            android:id="@+id/lst_filmeSchedule"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="25dp"
-            android:padding="5dp"
-            android:text="Schedule"/>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -11,7 +11,6 @@ import com.pm.cinefama.R
 import com.pm.cinefama.data.entities.Filme
 import com.pm.cinefama.data.viewmodel.FilmeViewModel
 import com.pm.cinefama.utils.Utils.Companion.hideKeyboard
-import kotlinx.android.synthetic.main.custom_row.*
 import kotlinx.android.synthetic.main.fragment_add.*
 
 class AddFragment : Fragment() {

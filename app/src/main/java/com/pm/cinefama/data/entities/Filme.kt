@@ -6,7 +6,6 @@ import androidx.room.Entity
 import androidx.room.ColumnInfo
 import kotlinx.android.parcel.Parcelize
 
-
 @Parcelize
 @Entity(tableName = "Filme")
 

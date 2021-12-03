@@ -5,12 +5,12 @@
     <item android:id="@+id/menu_update"
         android:title="Update"
         android:icon="@drawable/ic_baseline_save_24"
-        android:iconTint="@android:color/white"
+        android:iconTint="@android:color/black"
         app:showAsAction="ifRoom"/>
 
     <item android:id="@+id/menu_delete"
         android:title="Delete"
         android:icon="@drawable/ic_baseline_delete_24"
-        android:iconTint="@android:color/white"
+        android:iconTint="@android:color/black"
         app:showAsAction="ifRoom"/>
 </menu>

@@ -8,7 +8,10 @@ import androidx.room.RoomDatabase
 import com.pm.cinefama.data.dao.FilmeDao
 import com.pm.cinefama.data.entities.Filme
 
-@Database(entities = [Filme :: class], version = 3, exportSchema = true, autoMigrations = [AutoMigration (from = 3, to = 4)])
+@Database(entities = [Filme :: class],
+    version = 2,
+    exportSchema = true,
+    autoMigrations = [AutoMigration (from = 2, to = 3)])
 abstract class FilmeDatabase : RoomDatabase() {
 
     abstract fun filmeDao() : FilmeDao

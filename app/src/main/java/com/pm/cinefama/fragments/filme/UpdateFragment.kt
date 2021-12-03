@@ -64,7 +64,16 @@ class UpdateFragment : Fragment() {
                     Toast.LENGTH_LONG
             ).show()
         }
-        val filme = Filme(args.currentFilme.id, updateFilmeName.text.toString())
+        val filme = Filme(args.currentFilme.id,
+            updateFilmeName.text.toString(),
+            Integer.parseInt(updateFilmeDuration.toString()),
+            updateFilmeDirectors.text.toString(),
+            updateFilmeActors.text.toString(),
+            updateFilmeGenre.text.toString(),
+            updateFilmeRelease_date.toString(),
+            Integer.parseInt(updateFilmeLegal_age.toString()),
+            Integer.parseInt(updateFilmeTheater.toString()),
+            updateFilmeSchedule.text.toString())
 
         mFilmeViewModel.updateFilme(filme)
 

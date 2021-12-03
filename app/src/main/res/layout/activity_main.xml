@@ -8,6 +8,7 @@ tools:context=".MainActivity">
 
 
 <fragment
+    android:iconTint="@android:color/white"
     android:id="@+id/fragment"
     android:name="androidx.navigation.fragment.NavHostFragment"
     android:layout_width="match_parent"

@@ -21,8 +21,49 @@
 
         <EditText
             android:id="@+id/updateFilmeName"
+            android:hint="Movie Name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/updateFilmeDuration"
+            android:hint="Duration (minutes)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/updateFilmeDirectors"
+            android:hint="Directors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/updateFilmeActors"
+            android:hint="Actors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/updateFilmeGenre"
+            android:hint="Genre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/updateFilmeRelease_date"
+            android:hint="Release Date (dd/mm/yy)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/updateFilmeLegal_age"
+            android:hint="Legal Age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/updateFilmeTheater"
+            android:hint="Theater"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/updateFilmeSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
