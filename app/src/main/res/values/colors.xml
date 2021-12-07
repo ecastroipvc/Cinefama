@@ -4,8 +4,11 @@
     <color name="red_500">#F44336</color>
     <color name="red_600">#E53935</color>
     <color name="blue">#00008b</color>
-    <color name="green_700">#388E3C</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
     <color name="grey">#F1F1F1</color>
+    <color name="yellow">#FFFF00</color>
+
+    <color name="gradient_start">#F44336</color>
+    <color name="gradient_end">#404040</color>
 </resources>
