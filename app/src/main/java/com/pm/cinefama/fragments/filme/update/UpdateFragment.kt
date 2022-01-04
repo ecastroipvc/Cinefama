@@ -1,4 +1,4 @@
-package com.pm.cinefama.fragments.filme
+package com.pm.cinefama.fragments.filme.update
 
 import android.app.AlertDialog
 import android.os.Bundle
@@ -13,7 +13,6 @@ import com.pm.cinefama.R
 import com.pm.cinefama.data.entities.Filme
 import com.pm.cinefama.data.viewmodel.FilmeViewModel
 import com.pm.cinefama.utils.Utils.Companion.hideKeyboard
-import kotlinx.android.synthetic.main.fragment_add.*
 import kotlinx.android.synthetic.main.fragment_update.*
 import kotlinx.android.synthetic.main.fragment_update.view.*
 

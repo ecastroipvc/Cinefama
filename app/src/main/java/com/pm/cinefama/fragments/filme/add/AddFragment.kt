@@ -1,4 +1,4 @@
-package com.pm.cinefama.fragments.filme
+package com.pm.cinefama.fragments.filme.add
 
 import android.os.Bundle
 import android.text.TextUtils

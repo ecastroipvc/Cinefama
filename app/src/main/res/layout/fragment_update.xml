@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.filme.AddFragment">
+    tools:context=".fragments.filme.add.AddFragment">
 
     <LinearLayout
         android:id="@+id/ll_main_layout_update_filme"
@@ -61,6 +61,7 @@
             android:layout_height="wrap_content" />
         <EditText
             android:id="@+id/updateFilmeSchedule"
+            android:hint="Schedule (hh:mm)"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 

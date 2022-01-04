@@ -1,4 +1,4 @@
-package com.pm.cinefama.fragments.filme
+package com.pm.cinefama.fragments.filme.filme_list
 
 import android.graphics.Color
 import android.view.LayoutInflater
@@ -15,11 +15,11 @@ class ListAdapter: RecyclerView.Adapter<ListAdapter.MyViewHolder>() {
 
     private var filmeList = emptyList<Filme>()
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListAdapter.MyViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
         return MyViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.custom_row, parent, false))
     }
 
-    override fun onBindViewHolder(holder: ListAdapter.MyViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
         val currentItem = filmeList[position]
         holder.itemView.lst_filmeId.text = currentItem.id.toString()
         holder.itemView.lst_filmeName.text = currentItem.name
