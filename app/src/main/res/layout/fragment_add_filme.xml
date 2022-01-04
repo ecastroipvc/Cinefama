@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.add.AddFragment">
+
+    <include
+        android:id="@+id/llProgressBar"
+        layout="@layout/progessbar"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/ll_main_layout_add_report"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="left"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/add_filme_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="25sp"
+            android:text="@string/duration"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/add_filme_duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="25sp"
+            android:text="@string/directors"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/add_filme_directors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="25sp"
+            android:text="@string/actors"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/add_filme_actors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="25sp"
+            android:text="@string/genre"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/add_filme_genre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="25sp"
+            android:text="@string/release_date"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/add_filme_release_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="25sp"
+            android:text="@string/legal_age"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/add_filme_legal_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="25sp"
+            android:text="@string/theater"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/add_filme_theater"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="25sp"
+            android:text="@string/schedule"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/add_filme_schedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</FrameLayout>

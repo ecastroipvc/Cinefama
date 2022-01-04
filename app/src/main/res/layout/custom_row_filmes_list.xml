@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5sp"
+    android:id="@+id/rowLayout_filmes_list">
+
+    <LinearLayout
+        android:id="@+id/main_layout_filmes_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="left"
+        android:padding="0dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/filmes_list_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:padding="5dp"
+            android:text="Name"/>
+        <TextView
+            android:id="@+id/filmes_list_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:padding="5dp"
+            android:text="Duration"/>
+        <TextView
+            android:id="@+id/filmes_list_directors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:padding="5dp"
+            android:text="Directors"/>
+        <TextView
+            android:id="@+id/filmes_list_actors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:padding="5dp"
+            android:text="Actors"/>
+        <TextView
+            android:id="@+id/filmes_list_genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:padding="5dp"
+            android:text="Genre"/>
+        <TextView
+            android:id="@+id/filmes_list_release_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:padding="5dp"
+            android:text="Release date"/>
+        <TextView
+            android:id="@+id/filmes_list_legal_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:padding="5dp"
+            android:text="Legal age"/>
+
+        <TextView
+            android:id="@+id/filmes_list_theater"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:padding="5dp"
+            android:text="Theater"/>
+
+        <TextView
+            android:id="@+id/filmes_list_schedule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:padding="5dp"
+            android:text="Schedule"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
