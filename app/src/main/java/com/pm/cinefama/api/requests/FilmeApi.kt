@@ -13,6 +13,7 @@ interface FilmeApi {
     @POST("filmes/create")
     fun createReport(
         @Header("Authorization") token: String,
+        @Field("users_id") users_id: String?,
         @Field("name") name: String,
         @Field("duration") duration: Int,
         @Field("directors") directors: String,

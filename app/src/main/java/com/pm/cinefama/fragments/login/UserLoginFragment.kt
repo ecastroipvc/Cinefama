@@ -1,4 +1,4 @@
-package com.pm.cinefama.fragments.filme.login
+package com.pm.cinefama.fragments.login
 
 import android.content.Context
 import android.os.Bundle
@@ -60,7 +60,7 @@ class UserLoginFragment : Fragment() {
 
                     if (userDto.status == "OK") {
                         setUserSettings(userDto)
-                        findNavController().navigate(R.id.action_userLoginFragment_to_booksListFragment)
+                        findNavController().navigate(R.id.action_userLoginFragment_to_filmesListFragment)
                         Toast.makeText(requireContext(), getString(R.string.hello) + " " + userDto.user.first().name, Toast.LENGTH_LONG).show()
                     } else {
                         Toast.makeText(requireContext(), getString(resources.getIdentifier(userDto.message, "string",

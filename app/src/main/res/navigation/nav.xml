@@ -1,40 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/nav"
-    app:startDestination="@id/listFragment">
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/nav"
+app:startDestination="@id/userLoginFragment">
 
-    <fragment
-        android:id="@+id/listFragment"
-        android:name="com.pm.cinefama.fragments.filme.filme_list.ListFragment"
-        android:label="Movie List"
-        tools:layout="@layout/fragment_list" >
-        <action
-            android:id="@+id/action_listFragment_to_addFragment"
-            app:destination="@id/addFragment" />
-        <action
-            android:id="@+id/action_listFragment_to_updateFragment"
-            app:destination="@id/updateFragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/addFragment"
-        android:name="com.pm.cinefama.fragments.filme.add.AddFragment"
-        android:label="Add Movie"
-        tools:layout="@layout/fragment_add" >
-        <action
-            android:id="@+id/action_addFragment_to_listFragment"
-            app:destination="@id/listFragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/updateFragment"
-        android:name="com.pm.cinefama.fragments.filme.update.UpdateFragment"
-        android:label="Update Movie" >
-        <action
-            android:id="@+id/action_updateFragment_to_listFragment"
-            app:destination="@id/listFragment" />
-        <argument
-            android:name="currentFilme"
-            app:argType="com.pm.cinefama.data.entities.Filme" />
-    </fragment>
+<fragment
+    android:id="@+id/listFragment"
+    android:name="com.pm.cinefama.fragments.list.ListFragment"
+    android:label="Movie List"
+    tools:layout="@layout/fragment_list" >
+    <action
+        android:id="@+id/action_listFragment_to_addFragment"
+        app:destination="@id/addFragment" />
+    <action
+        android:id="@+id/action_listFragment_to_updateFragment"
+        app:destination="@id/updateFragment" />
+    <action
+        android:id="@+id/action_listFragment_to_userLoginFragment"
+        app:destination="@id/userLoginFragment" />
+</fragment>
+<fragment
+    android:id="@+id/addFragment"
+    android:name="com.pm.cinefama.fragments.add.AddFragment"
+    android:label="Add Movie"
+    tools:layout="@layout/fragment_add" >
+    <action
+        android:id="@+id/action_addFragment_to_listFragment"
+        app:destination="@id/listFragment" />
+</fragment>
+<fragment
+    android:id="@+id/updateFragment"
+    android:name="com.pm.cinefama.fragments.update.UpdateFragment"
+    android:label="Update Movie">
+    <action
+        android:id="@+id/action_updateFragment_to_listFragment"
+        app:destination="@id/listFragment" />
+    <argument
+        android:name="currentFilme"
+        app:argType="com.pm.cinefama.data.entities.Filme" />
+</fragment>
+<fragment
+    android:id="@+id/filmesListFragment"
+    android:name="com.pm.cinefama.fragments.filme_list.FilmesListFragment"
+    android:label="@string/filmes_list"
+    tools:layout="@layout/fragment_filmes_list">
+    <action
+        android:id="@+id/action_filmesListFragment_to_userLoginFragment"
+        app:destination="@id/userLoginFragment" />
+    <action
+        android:id="@+id/action_filmesListFragment_to_updateFilmeFragment"
+        app:destination="@id/updateFilmeFragment" />
+    <action
+        android:id="@+id/action_reportsListFragment_to_addReportFragment"
+        app:destination="@id/addFilmeFragment" />
+</fragment>
+<fragment
+    android:id="@+id/userLoginFragment"
+    android:name="com.pm.cinefama.fragments.login.UserLoginFragment"
+    android:label="@string/login"
+    tools:layout="@layout/fragment_user_login">
+    <action
+        android:id="@+id/action_userLoginFragment_to_filmesListFragment"
+        app:destination="@id/filmesListFragment" />
+    <action
+        android:id="@+id/action_userLoginFragment_to_listFragment"
+        app:destination="@id/listFragment" />
+</fragment>
+<fragment
+    android:id="@+id/updateFilmeFragment"
+    android:name="com.pm.cinefama.fragments.update_filme.UpdateFilmeFragment"
+    android:label="@string/update_filme"
+    tools:layout="@layout/fragment_update_filme">
+    <action
+        android:id="@+id/action_updateFilmeFragment_to_filmesListFragment"
+        app:destination="@id/filmesListFragment" />
+    <argument
+        android:name="currentFilme"
+        app:argType="com.pm.cinefama.api.models.Filme" />
+    <action
+        android:id="@+id/action_updateFilmeFragment_to_userLoginFragment"
+        app:destination="@id/userLoginFragment" />
+</fragment>
+<fragment
+    android:id="@+id/addFilmeFragment"
+    android:name="com.pm.cinefama.fragments.filme.add.AddFilmeFragment"
+    android:label="@string/add_filme"
+    tools:layout="@layout/fragment_add_filme">
+    <action
+        android:id="@+id/action_addFilmeFragment_to_filmesListFragment"
+        app:destination="@id/filmesListFragment" />
+    <action
+        android:id="@+id/action_addFilmeFragment_to_userLoginFragment"
+        app:destination="@id/userLoginFragment" />
+</fragment>
 </navigation>

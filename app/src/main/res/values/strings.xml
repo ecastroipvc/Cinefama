@@ -1,7 +1,14 @@
 <resources>
     <string name="app_name">Cinefama</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="settings">Settings</string>
     <string name="filme">Movie</string>
+    <string name="title">Title</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="signin">Sign In</string>
     <string name="empty_filme_name">Movie name must have a value.</string>
     <string name="filme_successfully_added">Movie successfully added.</string>
     <string name="yes">Yes</string>
@@ -10,4 +17,34 @@
     <string name="question_delete">Are you sure you want delete?</string>
     <string name="filme_successfully_updated">Movie successfully updated.</string>
     <string name="filme_successfully_deleted">Movie successfully deleted.</string>
+    <string name="error_resources_wrong_password">Wrong password</string>
+    <string name="uppdate">Update</string>
+    <string name="api_error_something_went_wrong">Ups! Something went wrong. Please try again.</string>
+    <string name="api_error_report_not_found">This report was not found, probably is was deleted. Reload data or try again.</string>
+    <string name="api_error_authorisation_failed">Authorization failed. Please login again.</string>
+    <string name="api_error_wrong_login">Wrong username or password.</string>
+    <string name="error_something_went_wrong">Ups! Something went wrong. Please try again.</string>
+    <string name="fill_username_and_password">Please fill username and password!</string>
+    <string name="filmes_list">Movies</string>
+    <string name="only_edit_your_filmes">Ups! You can only update or delete your movies.</string>
+    <string name="author">Author</string>
+    <string name="genre">Genre</string>
+    <string name="dtlaunch">Data de lançamento</string>
+    <string name="publishcompany">Publish Company</string>
+    <string name="npages">Nº páginas</string>
+    <string name="cape">Capa</string>
+    <string name="hello">Hello</string>
+    <string name="logout">Logout</string>
+    <string name="logout_question">Do you want log out?</string>
+    <string name="refresh">Refresh</string>
+    <string name="add_filme">New movie</string>
+    <string name="update_filme">Update movie</string>
+    <string name="fill_title_and_description">Please fill title and description!</string>
+    <string name="successfull_added_new_filme">Movie has been successfully added!</string>
+    <string name="delete_filme">Delete movie</string>
+    <string name="question_delete_filme">Are you sure you want delete this report?</string>
+    <string name="successfull_deleted_filme">Movie has been successfully deleted!</string>
+    <string name="successfull_updated_filme">Movie has been successfully updated!</string>
+    <string name="session_expired">Session expired</string>
+    <string name="session_expired_message">Session has been expired. Please sign in.</string>
 </resources>

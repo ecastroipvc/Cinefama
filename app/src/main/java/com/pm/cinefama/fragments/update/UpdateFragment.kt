@@ -1,4 +1,4 @@
-package com.pm.cinefama.fragments.filme.update
+package com.pm.cinefama.fragments.update
 
 import android.app.AlertDialog
 import android.os.Bundle

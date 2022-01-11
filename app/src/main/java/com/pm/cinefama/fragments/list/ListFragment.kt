@@ -1,4 +1,4 @@
-package com.pm.cinefama.fragments.filme.filme_list
+package com.pm.cinefama.fragments.list
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
