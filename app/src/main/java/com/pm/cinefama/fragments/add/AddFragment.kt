@@ -32,7 +32,7 @@ class AddFragment : Fragment() {
     }
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
-        inflater.inflate(R.menu.menu_add_filme, menu)
+        inflater.inflate(R.menu.add_menu_filme, menu)
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {

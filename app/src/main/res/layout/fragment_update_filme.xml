@@ -20,7 +20,7 @@
             android:textSize="25dp" />
 
         <EditText
-            android:id="@+id/add_filme_name"
+            android:id="@+id/update_filme_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -32,7 +32,7 @@
             android:textSize="25dp" />
 
         <EditText
-            android:id="@+id/add_filme_duration"
+            android:id="@+id/update_filme_duration"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -44,7 +44,7 @@
             android:textSize="25dp" />
 
         <EditText
-            android:id="@+id/add_filme_directors"
+            android:id="@+id/update_filme_directors"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -56,7 +56,7 @@
             android:textSize="25dp" />
 
         <EditText
-            android:id="@+id/add_filme_actors"
+            android:id="@+id/update_filme_actors"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -68,7 +68,7 @@
             android:textSize="25dp" />
 
         <EditText
-            android:id="@+id/add_filme_genre"
+            android:id="@+id/update_filme_genre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -80,7 +80,7 @@
             android:textSize="25dp" />
 
         <EditText
-            android:id="@+id/add_filme_release_date"
+            android:id="@+id/update_filme_release_date"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -92,7 +92,7 @@
             android:textSize="25dp" />
 
         <EditText
-            android:id="@+id/add_filme_legal_age"
+            android:id="@+id/update_filme_legal_age"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -104,7 +104,7 @@
             android:textSize="25dp" />
 
         <EditText
-            android:id="@+id/add_filme_theater"
+            android:id="@+id/update_filme_theater"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -116,7 +116,7 @@
             android:textSize="25dp" />
 
         <EditText
-            android:id="@+id/add_filme_schedule"
+            android:id="@+id/update_filme_schedule"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </LinearLayout>

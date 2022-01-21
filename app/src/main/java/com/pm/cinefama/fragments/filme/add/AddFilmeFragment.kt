@@ -73,7 +73,7 @@ class AddFilmeFragment : Fragment() {
                 genre = add_filme_genre.text.toString(),
                 release_date = add_filme_release_date.text.toString(),
                 legal_age = Integer.parseInt(add_filme_legal_age.text.toString()),
-                schedule = Integer.parseInt(add_filme_theater.text.toString()),
+                theater = Integer.parseInt(add_filme_theater.text.toString()),
                 schedule = add_filme_schedule.text.toString(),
             )
 

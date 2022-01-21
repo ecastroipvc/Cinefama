@@ -67,7 +67,7 @@ class UpdateFilmeFragment : Fragment() {
 
     private fun updateFilme() {
         if (TextUtils.isEmpty(update_filme_name.text.toString()) || TextUtils.isEmpty(
-                update_filme_author.text.toString()
+                update_filme_genre.text.toString()
             )
         ) {
             Toast.makeText(
@@ -88,7 +88,7 @@ class UpdateFilmeFragment : Fragment() {
                 genre = update_filme_genre.text.toString(),
                 release_date = update_filme_release_date.text.toString(),
                 legal_age = Integer.parseInt(update_filme_legal_age.text.toString()),
-                schedule = Integer.parseInt(update_filme_theater.text.toString()),
+                theater = Integer.parseInt(update_filme_theater.text.toString()),
                 schedule = update_filme_schedule.text.toString(),
             )
 

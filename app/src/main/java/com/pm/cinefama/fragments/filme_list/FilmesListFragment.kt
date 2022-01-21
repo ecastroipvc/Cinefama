@@ -54,7 +54,7 @@ class FilmesListFragment : Fragment(){
             logout()
         }
 
-        if(item.itemId == R.id.reports_list_refresh){
+        if(item.itemId == R.id.filmes_list_refresh){
             _view?.let { getAndSetData(it) }
         }
 
@@ -83,7 +83,7 @@ class FilmesListFragment : Fragment(){
 
                 if (response.isSuccessful) {
                     val filmes: List<Filme> = response.body()!!
-                    adapter.setData(Filmes)
+                    adapter.setData(filmes)
                 } else {
                     if (response.code() == 401) {
                         unauthorized(navigatonHandlder = {

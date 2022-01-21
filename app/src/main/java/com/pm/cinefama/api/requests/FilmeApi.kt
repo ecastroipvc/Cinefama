@@ -7,11 +7,11 @@ import retrofit2.http.*
 
 interface FilmeApi {
     @GET("filmes/read")
-    fun getReports(@Header("Authorization") token: String): Call<List<Filme>>
+    fun getFilmes(@Header("Authorization") token: String): Call<List<Filme>>
 
     @FormUrlEncoded
     @POST("filmes/create")
-    fun createReport(
+    fun createFilme(
         @Header("Authorization") token: String,
         @Field("users_id") users_id: String?,
         @Field("name") name: String,
@@ -27,7 +27,7 @@ interface FilmeApi {
 
     @FormUrlEncoded
     @POST("filmes/update")
-    fun updateReport(
+    fun updateFilme(
         @Header("Authorization") token: String,
         @Field("id") id: Int,
         @Field("name") name: String,
@@ -43,5 +43,5 @@ interface FilmeApi {
 
     @FormUrlEncoded
     @POST("filmes/delete")
-    fun deleteReport(@Header("Authorization") token: String, @Field("id") id: Int): Call<FilmeDto>
+    fun deleteFilme(@Header("Authorization") token: String, @Field("id") id: Int): Call<FilmeDto>
 }
