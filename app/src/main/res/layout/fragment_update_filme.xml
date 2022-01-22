@@ -16,7 +16,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/name"
+            android:text="Name"
             android:textSize="25dp" />
 
         <EditText
@@ -28,7 +28,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="25sp"
-            android:text="@string/duration"
+            android:text="Duration"
             android:textSize="25dp" />
 
         <EditText
@@ -40,7 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="25sp"
-            android:text="@string/directors"
+            android:text="Directors"
             android:textSize="25dp" />
 
         <EditText
@@ -52,7 +52,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="25sp"
-            android:text="@string/actors"
+            android:text="Actors"
             android:textSize="25dp" />
 
         <EditText
@@ -64,7 +64,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="25sp"
-            android:text="@string/genre"
+            android:text="Genre"
             android:textSize="25dp" />
 
         <EditText
@@ -76,7 +76,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="25sp"
-            android:text="@string/release_date"
+            android:text="Release_date"
             android:textSize="25dp" />
 
         <EditText
@@ -88,7 +88,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="25sp"
-            android:text="@string/legal_age"
+            android:text="Legal age"
             android:textSize="25dp" />
 
         <EditText
@@ -100,7 +100,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="25sp"
-            android:text="@string/theater"
+            android:text="Theater"
             android:textSize="25dp" />
 
         <EditText
@@ -112,7 +112,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="25sp"
-            android:text="@string/schedule"
+            android:text="Schedule"
             android:textSize="25dp" />
 
         <EditText
