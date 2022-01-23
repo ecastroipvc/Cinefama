@@ -24,14 +24,17 @@
         <entry key="..\:/Users/Emanuel Castro/Desktop/Cinefama/app/src/main/res/drawable/ic_baseline_clear_24.xml" value="0.17407407407407408" />
         <entry key="..\:/Users/Emanuel Castro/Desktop/Cinefama/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.14895833333333333" />
         <entry key="..\:/Users/Emanuel Castro/Desktop/Cinefama/app/src/main/res/drawable/ic_baseline_filme_24.xml" value="0.17407407407407408" />
+        <entry key="..\:/Users/Emanuel Castro/Desktop/Cinefama/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.1398148148148148" />
         <entry key="..\:/Users/Emanuel Castro/Desktop/Cinefama/app/src/main/res/drawable/ic_baseline_login_24.xml" value="0.17407407407407408" />
         <entry key="..\:/Users/Emanuel Castro/Desktop/Cinefama/app/src/main/res/drawable/ic_baseline_logout_24.xml" value="0.17407407407407408" />
+        <entry key="..\:/Users/Emanuel Castro/Desktop/Cinefama/app/src/main/res/drawable/ic_baseline_map_24.xml" value="0.1398148148148148" />
         <entry key="..\:/Users/Emanuel Castro/Desktop/Cinefama/app/src/main/res/drawable/ic_baseline_refresh_24.xml" value="0.17407407407407408" />
         <entry key="..\:/Users/Emanuel Castro/Desktop/Cinefama/app/src/main/res/drawable/ic_baseline_save_24.xml" value="0.14895833333333333" />
         <entry key="..\:/Users/Emanuel Castro/Desktop/Cinefama/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14895833333333333" />
         <entry key="..\:/Users/Emanuel Castro/Desktop/Cinefama/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.14895833333333333" />
         <entry key="..\:/Users/Emanuel Castro/Desktop/Cinefama/app/src/main/res/layout/activity_main.xml" value="0.1328125" />
-        <entry key="..\:/Users/Emanuel Castro/Desktop/Cinefama/app/src/main/res/layout/custom_row.xml" value="0.1328125" />
+        <entry key="..\:/Users/Emanuel Castro/Desktop/Cinefama/app/src/main/res/layout/activity_maps.xml" value="0.1" />
+        <entry key="..\:/Users/Emanuel Castro/Desktop/Cinefama/app/src/main/res/layout/custom_row.xml" value="0.1" />
         <entry key="..\:/Users/Emanuel Castro/Desktop/Cinefama/app/src/main/res/layout/custom_row_filmes_list.xml" value="0.1" />
         <entry key="..\:/Users/Emanuel Castro/Desktop/Cinefama/app/src/main/res/layout/fragment_add.xml" value="0.13802083333333334" />
         <entry key="..\:/Users/Emanuel Castro/Desktop/Cinefama/app/src/main/res/layout/fragment_add_filme.xml" value="0.1" />
@@ -45,6 +48,7 @@
         <entry key="..\:/Users/Emanuel Castro/Desktop/Cinefama/app/src/main/res/menu/add_menu_filme.xml" value="0.1" />
         <entry key="..\:/Users/Emanuel Castro/Desktop/Cinefama/app/src/main/res/menu/filmes_list_menu.xml" value="0.1" />
         <entry key="..\:/Users/Emanuel Castro/Desktop/Cinefama/app/src/main/res/menu/menu_add_filme.xml" value="0.136" />
+        <entry key="..\:/Users/Emanuel Castro/Desktop/Cinefama/app/src/main/res/menu/menu_maps.xml" value="0.1" />
         <entry key="..\:/Users/Emanuel Castro/Desktop/Cinefama/app/src/main/res/menu/menu_update_delete_filme.xml" value="0.2" />
         <entry key="..\:/Users/Emanuel Castro/Desktop/Cinefama/app/src/main/res/menu/update_delete_menu.xml" value="0.1" />
         <entry key="..\:/Users/Emanuel Castro/Desktop/Cinefama/app/src/main/res/menu/update_delete_menu_filme.xml" value="0.1" />

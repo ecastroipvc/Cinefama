@@ -47,10 +47,10 @@ class FilmesListAdapter(userIdInSession: String?) : RecyclerView.Adapter<FilmesL
         holder.itemView.filmes_list_schedule.text = currentItem.schedule
 
         if(position%2 == 0){
-            holder.itemView.setBackgroundColor(Color.parseColor("#d6d4e0"))
+            holder.itemView.setBackgroundColor(Color.parseColor("#f2f2f2"))
         }
         else {
-            holder.itemView.setBackgroundColor(Color.parseColor("#b8a9c9"))
+            holder.itemView.setBackgroundColor(Color.parseColor("#e6e6e6"))
         }
 
         holder.itemView.rowLayout_filmes_list.setOnClickListener {

@@ -2,11 +2,13 @@ package com.pm.cinefama.fragments.filme_list
 
 import android.app.AlertDialog
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.view.*
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.pm.cinefama.Maps
 import com.pm.cinefama.R
 import com.pm.cinefama.api.models.Filme
 import com.pm.cinefama.api.requests.FilmeApi
@@ -52,6 +54,11 @@ class FilmesListFragment : Fragment(){
 
         if (item.itemId == R.id.user_logout) {
             logout()
+        }
+
+        if(item.itemId == R.id.maps){
+            val intent = Intent(requireContext(), Maps::class.java)
+            startActivity(intent)
         }
 
         if(item.itemId == R.id.filmes_list_refresh){

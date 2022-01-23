@@ -1,5 +1,6 @@
 package com.pm.cinefama.fragments.login
 
+import android.app.ProgressDialog
 import android.content.Context
 import android.os.Bundle
 import android.text.TextUtils
@@ -13,6 +14,7 @@ import com.pm.cinefama.R
 import com.pm.cinefama.api.dto.UserDto
 import com.pm.cinefama.api.requests.UsersApi
 import com.pm.cinefama.api.retrofit.ServiceBuilder
+import com.pm.cinefama.api.utils.Constants
 import com.pm.cinefama.utils.Utils.Companion.hideKeyboard
 import com.pm.cinefama.utils.Utils.Companion.somethingWentWrong
 import kotlinx.android.synthetic.main.fragment_user_login.*

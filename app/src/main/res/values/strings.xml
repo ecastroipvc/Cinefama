@@ -18,7 +18,7 @@
     <string name="filme_successfully_updated">Movie successfully updated.</string>
     <string name="filme_successfully_deleted">Movie successfully deleted.</string>
     <string name="error_resources_wrong_password">Wrong password</string>
-    <string name="uppdate">Update</string>
+    <string name="update">Update</string>
     <string name="api_error_something_went_wrong">Ups! Something went wrong. Please try again.</string>
     <string name="api_error_report_not_found">This report was not found, probably is was deleted. Reload data or try again.</string>
     <string name="api_error_authorisation_failed">Authorization failed. Please login again.</string>
@@ -27,7 +27,7 @@
     <string name="fill_username_and_password">Please fill username and password!</string>
     <string name="filmes_list">Movies</string>
     <string name="only_edit_your_filmes">Ups! You can only update or delete your movies.</string>
-    <string name="author">Author</string>
+    <string name="actors">Actors</string>
     <string name="genre">Genre</string>
     <string name="dtlaunch">Data de lançamento</string>
     <string name="publishcompany">Publish Company</string>
@@ -38,6 +38,7 @@
     <string name="logout_question">Do you want log out?</string>
     <string name="refresh">Refresh</string>
     <string name="add_filme">New movie</string>
+    <string name="maps">Maps</string>
     <string name="update_filme">Update movie</string>
     <string name="fill_title_and_description">Please fill title and description!</string>
     <string name="successfull_added_new_filme">Movie has been successfully added!</string>
@@ -47,4 +48,6 @@
     <string name="successfull_updated_filme">Movie has been successfully updated!</string>
     <string name="session_expired">Session expired</string>
     <string name="session_expired_message">Session has been expired. Please sign in.</string>
+    <string name="map">Kotlin Google Map Current Location</string>
+    <string name="title_activity_maps">Map Current Location</string>
 </resources>

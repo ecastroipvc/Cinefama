@@ -54,6 +54,9 @@ app:startDestination="@id/userLoginFragment">
     <action
         android:id="@+id/action_reportsListFragment_to_addReportFragment"
         app:destination="@id/addFilmeFragment" />
+    <action
+        android:id="@+id/action_filmesListFragment_to_mapsActivity"
+        app:destination="@id/Maps" />
 </fragment>
 <fragment
     android:id="@+id/userLoginFragment"
@@ -94,4 +97,10 @@ app:startDestination="@id/userLoginFragment">
         android:id="@+id/action_addFilmeFragment_to_userLoginFragment"
         app:destination="@id/userLoginFragment" />
 </fragment>
+    <fragment
+        android:id="@+id/Maps"
+        android:name="com.pm.cinefama.Maps"
+        android:label="@string/maps"
+        tools:layout="@layout/activity_maps" >
+    </fragment>
 </navigation>

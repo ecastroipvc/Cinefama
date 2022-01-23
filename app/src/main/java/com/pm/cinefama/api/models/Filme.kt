@@ -14,6 +14,8 @@ data class Filme(
     val release_date: String,
     val legal_age: Int,
     val theater: Int,
+    val schedule: String,
     val users_id : Int,
-    val schedule: String
+    val created_at : String,
+    val user_name : String
 ) : Parcelable
